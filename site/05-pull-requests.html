@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pull Requests — GitHub for Beginners</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#content" class="skip">Skip to content</a>
+
+<header>
+  <div class="header-inner">
+    <h1 class="site-title"><a href="index.html">GitHub for Beginners</a></h1>
+    <p class="sub">A plain-English, step-by-step beginner manual — no command line required.</p>
+    <p class="credit">Prepared by <strong>Asdale Dynamics, LLC</strong> — beginner-friendly AI education, books, and guides.</p>
+  </div>
+</header>
+
+<div class="wrap">
+<main>
+  <nav class="sidebar" aria-label="Chapters">
+    <h2>Contents</h2>
+    <input type="text" class="search" id="chapterSearch" placeholder="Filter chapters…">
+    <ul class="chapters" id="chapterList"><li><a href="00-welcome.html">Welcome to GitHub for Beginners</a></li>
+<li><a href="01-creating-an-account.html">Creating a GitHub Account</a></li>
+<li><a href="02-repositories.html">Repositories</a></li>
+<li><a href="03-commits.html">Commits</a></li>
+<li><a href="04-issues.html">Issues</a></li>
+<li><a href="05-pull-requests.html" class="active">Pull Requests</a></li>
+<li><a href="06-releases.html">Releases</a></li>
+<li><a href="07-github-pages.html">GitHub Pages</a></li>
+<li><a href="08-first-repo-checklist.html">First-Repo Checklist</a></li>
+<li><a href="09-glossary.html">Glossary</a></li></ul>
+  </nav>
+
+  <article id="content"><h1 id="pull-requests">Pull Requests</h1>
+<p>A <strong>pull request</strong> (PR) is a proposal to change a repository. You say, "Here are changes I made — please review them and add them to the project." Pull requests are how people collaborate on GitHub without overwriting each other's work.</p>
+<p>This chapter covers using pull requests on your own repository. You do not need the command line.</p>
+<h2 id="the-basic-idea">The basic idea</h2>
+<ol>
+<li>You make changes (on your own copy or in a branch).</li>
+<li>You open a pull request describing the changes.</li>
+<li>Someone reviews the changes and leaves comments.</li>
+<li>If everything looks good, the changes are <strong>merged</strong> into the main project.</li>
+</ol>
+<h2 id="step-1-create-a-branch">Step 1: Create a branch</h2>
+<p>A <strong>branch</strong> is a separate workspace for your changes. It keeps your work isolated until it is ready.</p>
+<ol>
+<li>Open your repository on GitHub.</li>
+<li>Click the branch selector (it says <code>main</code> by default) near the top left.</li>
+<li>Type a new branch name, like <code>fix-about-typo</code>.</li>
+<li>Click <strong>Create branch</strong>.</li>
+</ol>
+<p>You are now working on the new branch. Any files you edit or add only affect this branch, not <code>main</code>.</p>
+<h2 id="step-2-make-your-changes">Step 2: Make your changes</h2>
+<p>Edit, add, or upload files exactly as described in the Repositories chapter. Every save creates a commit on your branch.</p>
+<h2 id="step-3-open-the-pull-request">Step 3: Open the pull request</h2>
+<ol>
+<li>After committing your changes, GitHub shows a yellow banner: "&lt;branch-name&gt; has recent pushes." Click <strong>Compare &amp; pull request</strong>.</li>
+<li><strong>Base branch:</strong> Choose <code>main</code> (this is where the changes will go).</li>
+<li><strong>Compare branch:</strong> Choose your branch (for example, <code>fix-about-typo</code>).</li>
+<li><strong>Title:</strong> Summarize the change. Example: "Fix typo on About page."</li>
+<li><strong>Description:</strong> Explain what changed and why. You can reference an issue by typing <code>#</code> and the issue number.</li>
+<li>Click <strong>Create pull request</strong>.</li>
+</ol>
+<h2 id="step-4-review-the-changes">Step 4: Review the changes</h2>
+<ol>
+<li>On the pull request page, click the <strong>Files changed</strong> tab.</li>
+<li>You see a diff: red lines are removed, green lines are added.</li>
+<li>To comment on a specific line, click the blue <strong>+</strong> icon next to the line and type your comment.</li>
+<li>Click <strong>Start a review</strong> to collect your comments, then submit them.</li>
+</ol>
+<h2 id="step-5-merge-the-pull-request">Step 5: Merge the pull request</h2>
+<p>When the changes look good:</p>
+<ol>
+<li>Scroll to the bottom of the pull request page.</li>
+<li>Click <strong>Merge pull request</strong>.</li>
+<li>Choose <strong>Create a merge commit</strong> (the simplest option).</li>
+<li>Click <strong>Confirm merge</strong>.</li>
+</ol>
+<p>The changes from your branch are now part of <code>main</code>. You can delete the branch if you no longer need it.</p>
+<h2 id="pull-requests-on-your-own-repo">Pull requests on your own repo</h2>
+<p>Even if you are the only person working on a repository, pull requests are useful. They force you to pause and review your changes before they become part of the main project.</p>
+<h2 id="whats-next">What's next</h2>
+<p>Once your project is in good shape, you can publish a release.</p>
+<p><a href="06-releases.html">Next: Releases</a> | <a href="00-welcome.html">Back to start</a></p>
+<hr />
+<p>Copyright (c) 2026 Asdale Dynamics, LLC.</p></article>
+</main>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <p>Copyright (c) 2026 Asdale Dynamics, LLC. Released under the <a href="../LICENSE.html">MIT License</a>.</p>
+    <p class="small">Credit: Asdale Dynamics, LLC — Dylan Asdale, registered nurse turned AI author and founder.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

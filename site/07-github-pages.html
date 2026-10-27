@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to My Website — GitHub for Beginners</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#content" class="skip">Skip to content</a>
+
+<header>
+  <div class="header-inner">
+    <h1 class="site-title"><a href="index.html">GitHub for Beginners</a></h1>
+    <p class="sub">A plain-English, step-by-step beginner manual — no command line required.</p>
+    <p class="credit">Prepared by <strong>Asdale Dynamics, LLC</strong> — beginner-friendly AI education, books, and guides.</p>
+  </div>
+</header>
+
+<div class="wrap">
+<main>
+  <nav class="sidebar" aria-label="Chapters">
+    <h2>Contents</h2>
+    <input type="text" class="search" id="chapterSearch" placeholder="Filter chapters…">
+    <ul class="chapters" id="chapterList"><li><a href="00-welcome.html">Welcome to GitHub for Beginners</a></li>
+<li><a href="01-creating-an-account.html">Creating a GitHub Account</a></li>
+<li><a href="02-repositories.html">Repositories</a></li>
+<li><a href="03-commits.html">Commits</a></li>
+<li><a href="04-issues.html">Issues</a></li>
+<li><a href="05-pull-requests.html">Pull Requests</a></li>
+<li><a href="06-releases.html">Releases</a></li>
+<li><a href="07-github-pages.html" class="active">GitHub Pages</a></li>
+<li><a href="08-first-repo-checklist.html">First-Repo Checklist</a></li>
+<li><a href="09-glossary.html">Glossary</a></li></ul>
+  </nav>
+
+  <article id="content"><h1 id="publishing-a-free-static-site-with-github-pages">Publishing a Free Static Site with GitHub Pages</h1>
+<p><strong>GitHub Pages</strong> turns a repository into a website — free, with no hosting fees and no command line. This is perfect for portfolios, project sites, book hubs, and beginner guides like this one.</p>
+<p>Your site will live at <code>https://your-username.github.io/your-repository-name/</code>.</p>
+<h2 id="step-1-create-a-repository-for-your-site">Step 1: Create a repository for your site</h2>
+<ol>
+<li>Create a new repository (see the Repositories chapter).</li>
+<li>Name it something clear, like <code>my-website</code>.</li>
+<li>Check <strong>Add a README file</strong>.</li>
+<li>Click <strong>Create repository</strong>.</li>
+</ol>
+<h2 id="step-2-add-your-website-files">Step 2: Add your website files</h2>
+<p>A website needs at least one HTML file. GitHub Pages looks for <code>index.html</code> as the home page.</p>
+<ol>
+<li>On your repository page, click <strong>Add file</strong> &gt; <strong>Create new file</strong>.</li>
+<li>Name it <code>index.html</code>.</li>
+<li>Paste this starter page:</li>
+</ol>
+<p>```html
+   <!DOCTYPE html></p>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>My Website</title>
+   </head>
+   <body>
+       <h1>Welcome to My Website</h1>
+       <p>This site is published for free with GitHub Pages.</p>
+   </body>
+   </html>
+<p>```</p>
+<ol start="4">
+<li>Click <strong>Commit changes</strong>.</li>
+</ol>
+<h2 id="step-3-turn-on-github-pages">Step 3: Turn on GitHub Pages</h2>
+<ol>
+<li>In your repository, click the <strong>Settings</strong> tab.</li>
+<li>In the left sidebar, click <strong>Pages</strong>.</li>
+<li>Under <strong>Build and deployment</strong> &gt; <strong>Source</strong>, choose <strong>Deploy from a branch</strong>.</li>
+<li>Under <strong>Branch</strong>, choose <code>main</code> and folder <code>/ (root)</code>, then click <strong>Save</strong>.</li>
+<li>Wait a minute or two. GitHub builds your site.</li>
+</ol>
+<h2 id="step-4-visit-your-site">Step 4: Visit your site</h2>
+<ol>
+<li>On the Pages settings page, you will see a link like:
+   <code>https://your-username.github.io/my-website/</code></li>
+<li>Click it. Your site is live.</li>
+</ol>
+<h2 id="update-your-site">Update your site</h2>
+<ol>
+<li>Edit <code>index.html</code> or add more files (CSS, images, pages) in your repository.</li>
+<li>Commit the changes.</li>
+<li>GitHub Pages rebuilds the site automatically, usually within a minute.</li>
+</ol>
+<h2 id="add-more-pages">Add more pages</h2>
+<p>Create <code>about.html</code>, <code>contact.html</code>, and so on. Link to them from <code>index.html</code>:</p>
+<pre><code class="language-html">&lt;a href=&quot;about.html&quot;&gt;About&lt;/a&gt;
+</code></pre>
+<h2 id="custom-domains-optional">Custom domains (optional)</h2>
+<p>If you own a domain name, you can connect it in the Pages settings. This is optional — the <code>github.io</code> address is free and works forever.</p>
+<h2 id="important-reminders">Important reminders</h2>
+<ul>
+<li>GitHub Pages is for <strong>static sites</strong> (HTML, CSS, JavaScript). It does not run server-side code like Python or PHP.</li>
+<li>Do not publish secrets, API keys, passwords, or personal data on a GitHub Pages site. Anything in a public repository is visible to everyone.</li>
+<li>Public repositories and GitHub Pages sites are free. Private repositories are also free, but Pages sites from private repos may have limits depending on your plan.</li>
+</ul>
+<h2 id="whats-next">What's next</h2>
+<p>You have now seen the core GitHub workflow. Use the first-repo checklist below to start your own project.</p>
+<p><a href="08-first-repo-checklist.html">Next: First-repo checklist</a> | <a href="00-welcome.html">Back to start</a></p>
+<hr />
+<p>Copyright (c) 2026 Asdale Dynamics, LLC.</p></article>
+</main>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <p>Copyright (c) 2026 Asdale Dynamics, LLC. Released under the <a href="../LICENSE.html">MIT License</a>.</p>
+    <p class="small">Credit: Asdale Dynamics, LLC — Dylan Asdale, registered nurse turned AI author and founder.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

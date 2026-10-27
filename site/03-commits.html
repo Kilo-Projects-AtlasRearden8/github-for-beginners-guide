@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Commits — GitHub for Beginners</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#content" class="skip">Skip to content</a>
+
+<header>
+  <div class="header-inner">
+    <h1 class="site-title"><a href="index.html">GitHub for Beginners</a></h1>
+    <p class="sub">A plain-English, step-by-step beginner manual — no command line required.</p>
+    <p class="credit">Prepared by <strong>Asdale Dynamics, LLC</strong> — beginner-friendly AI education, books, and guides.</p>
+  </div>
+</header>
+
+<div class="wrap">
+<main>
+  <nav class="sidebar" aria-label="Chapters">
+    <h2>Contents</h2>
+    <input type="text" class="search" id="chapterSearch" placeholder="Filter chapters…">
+    <ul class="chapters" id="chapterList"><li><a href="00-welcome.html">Welcome to GitHub for Beginners</a></li>
+<li><a href="01-creating-an-account.html">Creating a GitHub Account</a></li>
+<li><a href="02-repositories.html">Repositories</a></li>
+<li><a href="03-commits.html" class="active">Commits</a></li>
+<li><a href="04-issues.html">Issues</a></li>
+<li><a href="05-pull-requests.html">Pull Requests</a></li>
+<li><a href="06-releases.html">Releases</a></li>
+<li><a href="07-github-pages.html">GitHub Pages</a></li>
+<li><a href="08-first-repo-checklist.html">First-Repo Checklist</a></li>
+<li><a href="09-glossary.html">Glossary</a></li></ul>
+  </nav>
+
+  <article id="content"><h1 id="commits">Commits</h1>
+<p>A <strong>commit</strong> is a saved snapshot of your repository. Every time you save changes on GitHub, you create a commit. Commits build a timeline of your project, so you can look back at any earlier version.</p>
+<h2 id="what-a-commit-contains">What a commit contains</h2>
+<p>Each commit records:</p>
+<ul>
+<li><strong>The commit message</strong> — a short description of what changed.</li>
+<li><strong>The author</strong> — who made the change.</li>
+<li><strong>The date and time.</strong></li>
+<li><strong>The files changed</strong> — what was added, edited, or deleted.</li>
+<li><strong>A unique ID</strong> — a long string of letters and numbers (for example, <code>a1b2c3d</code>).</li>
+</ul>
+<h2 id="view-the-commit-history">View the commit history</h2>
+<ol>
+<li>Open your repository on GitHub.</li>
+<li>Click the <strong>commits</strong> link near the top of the page (it shows a number, like "3 commits").</li>
+<li>You see a list of every commit, newest first.</li>
+<li>Click any commit to see exactly what changed in it.</li>
+</ol>
+<h2 id="write-good-commit-messages">Write good commit messages</h2>
+<p>A good commit message tells the story of the change:</p>
+<ul>
+<li>Use the present tense: "Add about page," not "Added about page."</li>
+<li>Keep the first line under 50 characters if you can.</li>
+<li>Add details below if the change is complicated.</li>
+</ul>
+<p>Examples:</p>
+<table>
+<thead>
+<tr>
+<th>Instead of</th>
+<th>Try</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>update</td>
+<td>Update README with contact info</td>
+</tr>
+<tr>
+<td>fixed stuff</td>
+<td>Fix broken link in navigation</td>
+</tr>
+<tr>
+<td>changes</td>
+<td>Add privacy policy and terms</td>
+</tr>
+</tbody>
+</table>
+<h2 id="compare-two-versions-of-a-file">Compare two versions of a file</h2>
+<ol>
+<li>Open a file in your repository.</li>
+<li>Click the <strong>History</strong> button (clock icon).</li>
+<li>Click any commit to see that version.</li>
+<li>To compare two commits, click the <strong>...</strong> menu on one commit and choose <strong>Compare with branch</strong>, or open two commits side by side in your browser.</li>
+</ol>
+<h2 id="undo-a-mistake">Undo a mistake</h2>
+<p>GitHub keeps every commit, so mistakes are rarely permanent:</p>
+<ul>
+<li><strong>Revert a commit:</strong> On the commits page, open the commit, click <strong>...</strong>, and choose <strong>Revert commit</strong>. GitHub creates a new commit that undoes the changes. Your history stays intact.</li>
+<li><strong>Restore a deleted file:</strong> Open the commit that deleted the file, click the file name, then click <strong>View file</strong> and save it again in a new commit.</li>
+</ul>
+<h2 id="whats-next">What's next</h2>
+<p>Now that you can save changes, you can track tasks and bugs with issues.</p>
+<p><a href="04-issues.html">Next: Issues</a> | <a href="00-welcome.html">Back to start</a></p>
+<hr />
+<p>Copyright (c) 2026 Asdale Dynamics, LLC.</p></article>
+</main>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <p>Copyright (c) 2026 Asdale Dynamics, LLC. Released under the <a href="../LICENSE.html">MIT License</a>.</p>
+    <p class="small">Credit: Asdale Dynamics, LLC — Dylan Asdale, registered nurse turned AI author and founder.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

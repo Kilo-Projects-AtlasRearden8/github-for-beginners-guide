@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Releases — GitHub for Beginners</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#content" class="skip">Skip to content</a>
+
+<header>
+  <div class="header-inner">
+    <h1 class="site-title"><a href="index.html">GitHub for Beginners</a></h1>
+    <p class="sub">A plain-English, step-by-step beginner manual — no command line required.</p>
+    <p class="credit">Prepared by <strong>Asdale Dynamics, LLC</strong> — beginner-friendly AI education, books, and guides.</p>
+  </div>
+</header>
+
+<div class="wrap">
+<main>
+  <nav class="sidebar" aria-label="Chapters">
+    <h2>Contents</h2>
+    <input type="text" class="search" id="chapterSearch" placeholder="Filter chapters…">
+    <ul class="chapters" id="chapterList"><li><a href="00-welcome.html">Welcome to GitHub for Beginners</a></li>
+<li><a href="01-creating-an-account.html">Creating a GitHub Account</a></li>
+<li><a href="02-repositories.html">Repositories</a></li>
+<li><a href="03-commits.html">Commits</a></li>
+<li><a href="04-issues.html">Issues</a></li>
+<li><a href="05-pull-requests.html">Pull Requests</a></li>
+<li><a href="06-releases.html" class="active">Releases</a></li>
+<li><a href="07-github-pages.html">GitHub Pages</a></li>
+<li><a href="08-first-repo-checklist.html">First-Repo Checklist</a></li>
+<li><a href="09-glossary.html">Glossary</a></li></ul>
+  </nav>
+
+  <article id="content"><h1 id="releases">Releases</h1>
+<p>A <strong>release</strong> is a packaged version of your project that people can download. Releases are useful when you want to share a finished version — for example, version 1.0 of a guide, a template, or a small tool.</p>
+<h2 id="create-a-release">Create a release</h2>
+<ol>
+<li>Open your repository on GitHub.</li>
+<li>Click the <strong>Releases</strong> link on the right side of the page (or click <strong>Code</strong> &gt; <strong>Tags</strong> &gt; <strong>Releases</strong>).</li>
+<li>Click <strong>Draft a new release</strong>.</li>
+<li><strong>Tag version:</strong> Type a version number. Tags mark specific points in history. Common formats:
+   - <code>v1.0</code>
+   - <code>v1.0.1</code>
+   - <code>2026-10-27</code></li>
+<li><strong>Target:</strong> Choose <code>main</code> (the branch to release from).</li>
+<li><strong>Release title:</strong> A name for the release, like "Version 1.0 — First release."</li>
+<li><strong>Describe this release:</strong> Write what is new or changed. Example:</li>
+</ol>
+<p>```
+   ## What's New</p>
+<ul>
+<li>Initial release of the beginner GitHub guide</li>
+<li>Includes account setup, repos, and Pages publishing
+   ```</li>
+</ul>
+<ol start="8">
+<li><strong>Attach files (optional):</strong> Drag files you want people to download, such as a PDF or ZIP.</li>
+<li><strong>Set as the latest release:</strong> Leave checked if this is the current version.</li>
+<li><strong>Create as a pre-release:</strong> Leave unchecked unless this is a test version not meant for general use.</li>
+<li>Click <strong>Publish release</strong>.</li>
+</ol>
+<h2 id="what-people-get">What people get</h2>
+<p>Published releases get their own page on GitHub, with a list of assets people can download. Each release is tied to a tag, so you can always go back and see exactly what code the release contained.</p>
+<h2 id="edit-or-delete-a-release">Edit or delete a release</h2>
+<ol>
+<li>Go to the Releases page.</li>
+<li>Click the release you want to change.</li>
+<li>Click <strong>Edit release</strong> to change the title, description, or attachments.</li>
+<li>To delete, click <strong>...</strong> &gt; <strong>Delete release</strong>.</li>
+</ol>
+<p>Deleting a release does not delete your code or tags — it only removes the release page and attachments.</p>
+<h2 id="whats-next">What's next</h2>
+<p>Your project can live online for free with GitHub Pages.</p>
+<p><a href="07-github-pages.html">Next: GitHub Pages</a> | <a href="00-welcome.html">Back to start</a></p>
+<hr />
+<p>Copyright (c) 2026 Asdale Dynamics, LLC.</p></article>
+</main>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <p>Copyright (c) 2026 Asdale Dynamics, LLC. Released under the <a href="../LICENSE.html">MIT License</a>.</p>
+    <p class="small">Credit: Asdale Dynamics, LLC — Dylan Asdale, registered nurse turned AI author and founder.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
